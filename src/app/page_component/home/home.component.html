@@ -1,0 +1,55 @@
+<section class="section-one">
+    <div class="section-inner-wrapper">
+        <div class="Keep-track-of-past-e">
+            Keep track of past events like concerts, sporting events, travel, road trips – you name it.
+        </div>
+        <button class="btn-signUp">sign up</button>
+    </div>
+</section>
+<section class="section-two">
+    <div class="section-inner-wrapper">
+        <div class="write-it-down-before">
+            Write it down before you forget
+            <span>Here’s how it works...</span>
+        </div>
+        <div class="process container">
+            <div class="step-box">
+                <img class="icon" src='./../../../assets/plus.png'>
+                <p class="step-box-title">Create an event</p>
+                <p class="step-box-description">Enter the who, what, when and where – we’ll do the rest. We don’t care why but if you want to add it, that’s cool.</p>
+            </div>
+            <div class="step-box">
+                <img class="icon" src='./../../../assets/refresh.png'>
+                <p class="step-box-title">Re-connect</p>
+                <p class="step-box-description">We’ll send an invite to the people you were with and create a private space for you to
+                share memories. Harass them until they join.</p>
+            </div>
+            <div class="step-box">
+                <img class="icon" src='./../../../assets/wall.png'>
+                <p class="step-box-title">Build your stack</p>
+                <p class="step-box-description">The more events you create and the more people you connect with should bring back some great memories. No promises.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-one">
+    <div class="section-inner-wrapper">
+        <div class="Keep-track-of-past-e">
+            Sign Up
+            <span class="sign-up-text">We don’t care who you are. Why would we share information about people we don’t care about?</span>
+        </div>
+        <div class="input-box-wrapper">
+            <input class="input-box" placeholder="Name">
+            <input class="input-box" placeholder="Email">
+            <input class="input-box" placeholder="Password">
+        </div>
+        <button class="btn-signUp-two">LET’S DO THIS!</button>
+    </div>
+</section>
+<section class="section-three">
+    <div class="section-inner-wrapper container">
+        <div class="section-card-wrapper">
+            <app-card *ngFor="let item of cardArray.results" [cardData]="item"></app-card>
+        </div>
+    </div>
+</section>

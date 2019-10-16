@@ -1,0 +1,154 @@
+.section-one {
+  min-height: 600px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .Keep-track-of-past-e {
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .sign-up-text{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      height: 16px;
+      font-size: 14px;
+      text-align: center;
+      color: #cccccc;
+  }
+
+  .btn-signUp {
+    margin-top: 46px;
+    width: 178px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #c7199a;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .btn-signUp-two {
+    margin-top: 20px;
+    width: 178px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #c7199a;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .input-box-wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .input-box{
+      margin: auto;
+      max-width: 280px;
+      width: 100%;
+      height: 38px;
+      border-radius: 3px;
+      border: solid 1px #d1d1d1;
+      background-color: #ffffff;
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+}
+
+.section-inner-wrapper {
+  text-align: center;
+}
+
+.section-two {
+  min-height: 376px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px; 
+  padding-bottom: 50px; 
+
+  .write-it-down-before {
+    height: 49px;
+    font-size: 24px;
+    max-width: 802px;
+    margin: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eeeeee;
+    span{
+        display: block;
+        font-size: 16px;
+        color: #999999;
+    }
+  }
+
+  .process{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 60px;
+    grid-gap: 70px;
+
+    .icon{
+      margin-bottom: 30px; 
+    }
+  }
+  .step-box{
+    max-width: 300px;
+  }
+
+  .step-box-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #ffffff;
+  }
+
+  .step-box-description {
+    font-size: 14px;
+    text-align: center;
+    color: #cccccc;
+  }
+
+}
+
+.section-three {
+  min-height: 376px;
+  background-color: #151515;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .section-card-wrapper {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(232px, 216px));
+    grid-row-gap: 20px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .section-two {
+    .process {
+      display: block;
+    }
+    .step-box{
+      margin: auto;
+      margin-top: 40px;
+    }
+  }
+
+}
